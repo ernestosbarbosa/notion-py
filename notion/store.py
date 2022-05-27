@@ -333,7 +333,7 @@ class RecordStore(object):
                 "spaceId": self._client.current_space.id
             },
             "loader": {
-                'filter': filter,
+                # 'filter': filter,
                 'reducers': {
                     'collection_group_results': {
                         'limit': limit,
